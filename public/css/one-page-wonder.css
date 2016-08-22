@@ -11,6 +11,14 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+header {
+  height: 100vh;
+}
+
+#fullPage {
+  height: 100vh;
+}
+
 .navigation-button {
     font-size: 150%;
 }
