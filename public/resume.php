@@ -107,7 +107,7 @@
         
         <div class="main-wrapper">
              <header>
-                <a href="/index.html">
+                <a href="/landingPage.php">
                     <i class="fa fa-home">Home</i>
                 </a>
             </header>
