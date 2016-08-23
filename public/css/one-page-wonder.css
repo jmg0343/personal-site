@@ -259,6 +259,10 @@ header {
   font-family: 'Sree Krushnadevaraya', serif;
 }
 
+#formHeading {
+  color: #d6d6d6;
+}
+
 label {
   display: block;
   letter-spacing: 4px;
@@ -284,13 +288,14 @@ label input {
   border: 0;
   border-bottom: 2px solid #d6d6d6;
   color: white;
-  font-size: 36px;
+  font-size: 25px;
   letter-spacing: -1px;
   outline: 0;
   padding: 5px 20px;
   text-align: center;
   transition: all 0.3s;
-  width: 200px;
+  width: 300px;
+  font-family: 'Sree Krushnadevaraya', serif;
 }
 
 label input:focus {
@@ -312,6 +317,14 @@ label input:valid + .label-text {
   -ms-transform: translateY(-74px);
   -webkit-transform: translateY(-74px);
   transform: translateY(-74px);
+}
+
+textarea {
+  width: 500px;
+  height: 150px;
+  background: rgba(0,0,0,0.2);
+  color: #d6d6d6;
+  font-size: 20px;
 }
 
 #formSubmit {
