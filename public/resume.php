@@ -103,7 +103,7 @@
         
         <div class="main-wrapper">
              <header>
-                <a href="/landingPage.php">
+                <a href="/index.html">
                     <i class="fa fa-home">Home</i>
                 </a>
             </header>
