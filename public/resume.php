@@ -6,11 +6,7 @@
 <head>
     <title>Joey Garcia Resume</title>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <meta charset="utf-8">   
     <link rel="shortcut icon" href="/orbit/favicon.ico">  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <!-- Global CSS -->
@@ -65,7 +61,7 @@
     <div class="wrapper">
         <div class="sidebar-wrapper">
             <div class="profile-container">
-                <!-- <img class="profile" src="assets/images/profile.png" alt="JoeyGarcia" /> -->
+                <img class="profile" id="profilePic" src="/img/headshot2.jpeg" alt="JoeyGarcia" />
                 <h1 class="name">Joey Garcia</h1>
                 <h3 class="tagline">Full Stack Developer</h3>
             </div><!--//profile-container-->
@@ -112,9 +108,9 @@
                 </a>
             </header>
             <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <h2 class="section-title"><i class="fa fa-user"></i>Profile</h2>
                 <div class="summary">
-                    <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a href="http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/" target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+                    <p>Texas A&M graduate with a Bachelor of Science degree in Criminal Justice. A background in construction and warehouse management has helped me develop a keen sense of critical thinking, problem solving, and interpersonal communication skills.</p>
                 </div><!--//summary-->
             </section><!--//section-->
             
@@ -124,24 +120,26 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Lead Developer</h3>
-                            <div class="time">2015 - Present</div>
+                            <h3 class="job-title">Student</h3>
+                            <div class"company">Codeup</div>
+                            <div class="time">July 2016 - Present</div>
                         </div><!--//upper-row-->
-                        <div class="company">Startup Hubs, San Francisco</div>
+                        <div class="company">San Antonio, Texas</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</p>  
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                        <p>Intensive full-stack development bootcamp. This course provided extensive training in multiple languages, including Html, CSS, JavaScript, and PHP.</p>  
+                        <p>Codeup instilled both the skills and mindset necessary to pursue a career in web development, exposing me to a wide array of projects that challenged my critical thinking and problem solving abilities. These challenges, along with various guest speakers ranging from web developers to cyber security specialists, granted me a unique insight into the software development environment.</p>
                     </div><!--//details-->
                 </div><!--//item-->
                 
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">Senior Software Engineer</h3>
-                            <div class="time">2014 - 2015</div>
+                            <h3 class="job-title">Warehouse Lead</h3>
+                            <div class"company">BMW of San Antonio</div>
+                            <div class="time">2015 - 2016</div>
                         </div><!--//upper-row-->
-                        <div class="company">Google, London</div>
+                        <div class="company">San Antonio, Texas</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
@@ -152,10 +150,11 @@
                 <div class="item">
                     <div class="meta">
                         <div class="upper-row">
-                            <h3 class="job-title">UI Developer</h3>
-                            <div class="time">2012 - 2014</div>
+                            <h3 class="job-title">Interior Remodeling Specialist</h3>
+                            <div class"company">Envision Remodeling</div>
+                            <div class="time">2014 - 2016</div>
                         </div><!--//upper-row-->
-                        <div class="company">Amazon, London</div>
+                        <div class="company">San Antonio, Texas</div>
                     </div><!--//meta-->
                     <div class="details">
                         <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
@@ -192,7 +191,7 @@
                 <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
                 <div class="skillset">        
                     <div class="item">
-                        <h3 class="level-title">Python</h3>
+                        <h3 class="level-title">PHP</h3>
                         <div class="level-bar">
                             <div class="python" data-level="98%">
                             </div>                                      

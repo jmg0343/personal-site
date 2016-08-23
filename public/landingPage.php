@@ -5,10 +5,6 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>Joey Garcia</title> 
 
@@ -36,7 +32,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="affix1" data-spy="affix" data-offset-top="100" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,7 +42,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand navigation-button hvr-float-shadow" href="#">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -124,7 +119,7 @@
                             <div class="col-lg-8 col-lg-offset-2 text-center">
                                 <h2 class="section-heading">Contact Information</h2>
                                 <hr class="primary">
-                                <p id="contact-paragraph">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                                <p id="contact-paragraph">Thanks for checking out my site! Feel free to give me a call or shoot me an email.</p>
                             </div>
                             <div class="col-lg-4 col-lg-offset-2 text-center">
                                 <i class="fa fa-phone fa-3x sr-contact"></i>
