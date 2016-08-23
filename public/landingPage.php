@@ -55,6 +55,9 @@
                     <li class="navigation-button hvr-float-shadow">
                         <a href="/resume.php">Resume</a>
                     </li>
+                     <li class="navigation-button hvr-float-shadow">
+                        <a href="#conactForm">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -76,10 +79,10 @@
     <!-- Page Content -->
     <div class="container">
     
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" id="about">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
+        <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
             <h2 class="featurette-heading">Title of Project 1
                 <span class="text-muted">Description</span>
@@ -111,33 +114,32 @@
 
         <hr class="featurette-divider">
 
-        <!-- Footer -->
-        <footer>
-               <section id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2 text-center">
-                                <h2 class="section-heading">Contact Information</h2>
-                                <hr class="primary">
-                                <p id="contact-paragraph">Thanks for checking out my site! Feel free to give me a call or shoot me an email.</p>
-                            </div>
-                            <div class="col-lg-4 col-lg-offset-2 text-center">
-                                <i class="fa fa-phone fa-3x sr-contact"></i>
-                                <p>210-718-4715</p>
-                            </div>
-                            <div class="col-lg-4 text-center">
-                                <p>
-                                    <a id="email" href="mailto:jmg0343@gmail.com">
-                                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                                        <br>jmg0343@gmail.com
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-        </footer>
-
+        <form id="contactForm">
+            <div class="row" >
+                <div class="col-sm-6">
+                    <label>
+                        <input type="text" required/>
+                        <div class="label-text">First name</div>
+                    </label>
+                    <label>
+                        <input type="text" required/>
+                        <div class="label-text">Email</div>
+                    </label>
+                </div>
+                <div class="col-sm-6">
+                     <label>
+                        <input type="text" required/>
+                        <div class="label-text">Last name</div>
+                    </label>
+                     <label>
+                        <input type="text" required/>
+                        <div class="label-text">Website URL</div>
+                    </label>
+                </div>
+            </div>
+            <button id="formSubmit">Submit</button>
+        </form>
+        
     </div>
     <!-- /.container -->
 
@@ -146,6 +148,19 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+              $('input').blur(function(event) {
+                  var inputVal = this.value;
+                  
+                  if (inputVal) {
+                    this.classList.add('value-exists');
+                  } else {
+                    this.classList.remove('value-exists');
+                  }
+            });
+        });
+    </script>
 
 </body>
 

@@ -11,6 +11,11 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.navbar-inverse {
+    background-color: #373737;
+    border-color: #080808;
+}
+
 #affix1.affix {
   padding:0px;
   -webkit-transition:padding 0.2s linear;
@@ -92,7 +97,6 @@ header {
     display: block;
     width: 100%;
     text-align: center;
-    /*background: url('http://placehold.it/1900x500') no-repeat center center scroll;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -129,10 +133,6 @@ header {
 
 .featurette-heading {
     font-size: 50px;
-}
-
-footer {
-    margin: 50px 0;
 }
 
 @media(max-width:1200px) {
@@ -253,21 +253,84 @@ footer {
     }
 }
 
-footer {
-    background: rgba(0,0,0,0.7);
-    color: #cccccc;
-    margin: 0;
-    padding: 0;
-    display: block;
+#contactForm {
+  background: rgba(0,0,0,0.6);
+  text-align: center;
+  font-family: 'Sree Krushnadevaraya', serif;
 }
 
-
-#contact-paragraph {
-    font-size: 20px;
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  text-align: center;
 }
 
-#email:link, #email:visited {
-    color: #cccccc;
+label .label-text {
+  color: #d6d6d6;
+  cursor: text;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #d6d6d6;
+  color: white;
+  font-size: 36px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 200px;
+}
+
+label input:focus {
+  width: 400px;
+}
+
+label input:focus + .label-text {
+  color: #F0F0F0;
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+#formSubmit {
+  margin-bottom: 20px;
+  background-color: #333333;
+  border: 2px solid white;
+  border-radius: 27px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+#formSubmit:hover, button:focus {
+  background-color: white;
+  color: #333333;
+  outline: 0;
 }
 
 .featurette-image {
