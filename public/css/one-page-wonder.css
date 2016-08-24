@@ -11,6 +11,15 @@ body {
     z-index: -2;
 }
 
+.projectTitle {
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 3px 3px 5px black;
+}
+.descriptionTitle {
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 5px black;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -36,7 +45,6 @@ body {
     width: 100%;
     overflow: hidden;
     z-index: -1;
-
 }
 .video-container .poster img {
     width: 100%;
@@ -59,11 +67,6 @@ body {
     width: 100%;
     z-index: -1;
 }
-
-
-
-
-
 
 .navbar-inverse {
     background-color: black;
@@ -148,16 +151,19 @@ body {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
 .headline {
     padding: 120px 0;
     color: #ced0d2;
     height: 100vh;
+    text-shadow: 4px 4px 5px black;
 }
 
 #nameHeading {
   background-color: rgba(0,0,0,0.5);
+
 }
 
 .headline h1 {
@@ -173,7 +179,8 @@ body {
 }
 
 .featurette {
-    overflow: hidden;
+  text-align: center;
+  overflow: hidden;
 }
 
 .featurette-image.pull-left {
@@ -187,6 +194,11 @@ body {
 .featurette-heading {
     font-size: 50px;
     color: #ced0d2;
+}
+
+.lead {
+  color: #ced0d2;
+  background-color: rgba(0,0,0,0.5);
 }
 
 @media(max-width:1200px) {
@@ -402,6 +414,17 @@ textarea {
 
 .featurette-image {
     opacity: .5;
+}
+
+.featurette-image:hover {
+  opacity: 1;
+}
+.projectLinks {
+  color: #d6d6d6;
+}
+
+.projectLinks:hover {
+  text-decoration: none;
 }
 
 

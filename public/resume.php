@@ -169,7 +169,7 @@
                     <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
                 </div><!--//intro-->
                 <div class="item">
-                    <span class="project-title"><a href="#hook">Simon</a></span> - <span class="project-tagline">An interactive game allowing the user to test their memory and focus.</span>      
+                    <span class="project-title"><a href="/simon/simpleSimon.html">Simon</a></span> - <span class="project-tagline">An interactive game allowing the user to test their memory and focus.</span>      
                 </div><!--//item-->
             </section><!--//section-->
             
