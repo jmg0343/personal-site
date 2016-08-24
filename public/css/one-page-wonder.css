@@ -163,7 +163,10 @@ body {
 
 #nameHeading {
   background-color: rgba(0,0,0,0.5);
+}
 
+#subHeading {
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
 #bio {
@@ -175,7 +178,8 @@ body {
 }
 
 .headline h2 {
-    font-size: 60px;
+  margin-top: 40px;
+  font-size: 40px;
 }
 
 .featurette-divider {
