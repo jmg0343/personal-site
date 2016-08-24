@@ -80,7 +80,7 @@ $(document).ready(function () {
 				location.reload();
 			}, 5000);
 			document.getElementById("yeahBoi").play();
-			$("body").css("background-image", "url(/simon/,img/joeyAsFlavaFLav.jpg)");
+			$("body").css("background-image", "url(/simon/img/joeyAsFlavaFLav.jpg)");
 		};
 	};
 });
