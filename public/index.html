@@ -31,6 +31,10 @@
 </head>
 
 <body>
+
+
+
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="affix1" data-spy="affix" data-offset-top="100" role="navigation">
         <div class="container">
@@ -69,10 +73,9 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>Joey Garcia</h1>
+                <h1><span id="nameHeading">Joey Garcia</span></h1>
                 <h2>Full Stack Developer</h2>
             </div><br>
-            <!-- <a href="https://www.linkedin.com/in/joey-garcia-74161b7b" target="_blank"><button><i class="fa fa-linkedin" style="font-size:36px"></i></button></a> -->
         </div>
     </header>
 
@@ -111,9 +114,19 @@
             </h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-
+        <div class="homepage-hero-module">
+            <div class="video-container">
+                <div class="filter"></div>
+                <video autoplay loop class="fillWidth">
+                    <source src="cityVideoBackground/mp4/BnW.mp4" type="video/mp4" />
+                    <source src="cityVideoBackground/webm/BnW.webm" type="video/webm" />
+                </video>
+                <div class="poster hidden">
+                    <img src="cityVideoBackground/snapshots/BnW.jpg" alt="">
+                </div>
+            </div>
+        </div>
         <hr class="featurette-divider">
-
         <form id="contactForm">
             <h2 id="formHeading">I'd love to hear from you!</h2>
             <div class="row" >
@@ -124,25 +137,30 @@
                     </label>
                     <label>
                         <input type="text" required/>
-                        <div class="label-text">Email</div>
+                        <div class="label-text">Last name</div>
                     </label>
                 </div>
                 <div class="col-sm-6">
                      <label>
                         <input type="text" required/>
-                        <div class="label-text">Last name</div>
+                        <div class="label-text">Email</div>
                     </label>
                      <label>
                         <input type="text" required/>
                         <div class="label-text">Website URL</div>
                     </label>
                 </div>
-                <textarea placeholder="Feel free to leave a message. I'd love to hear from you!"></textarea>
+                <textarea placeholder="Questions, comments, or verbal abuse? This is where it goes."></textarea>
             </div>
             <button id="formSubmit">Submit</button>
         </form>
+
         
     </div>
+
+
+
+
     <!-- /.container -->
 
     <!-- jQuery -->
@@ -150,6 +168,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
 </body>
 
 </html>

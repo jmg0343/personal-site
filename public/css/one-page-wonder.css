@@ -6,13 +6,67 @@
 
 body {
     font-family: 'Sree Krushnadevaraya', serif;
-    background-image: url(/img/better-welcome-page.jpg);
-    background-attachment: fixed;
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: none;
+    z-index: -2;
 }
 
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    z-index: -1;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+    z-index: -1;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+    z-index: -1;
+}
+
+.video-container {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
+.video-container .filter {
+    z-index: -1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+
+
 .navbar-inverse {
-    background-color: #373737;
+    background-color: black;
     border-color: #080808;
 }
 
@@ -33,13 +87,6 @@ body {
   transition:padding 0.5s linear;  
 }
 
-header {
-  height: 100vh;
-}
-
-#fullPage {
-  height: 100vh;
-}
 
 .navigation-button {
     font-size: 150%;
@@ -105,6 +152,12 @@ header {
 
 .headline {
     padding: 120px 0;
+    color: #ced0d2;
+    height: 100vh;
+}
+
+#nameHeading {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .headline h1 {
@@ -133,6 +186,7 @@ header {
 
 .featurette-heading {
     font-size: 50px;
+    color: #ced0d2;
 }
 
 @media(max-width:1200px) {
@@ -254,7 +308,7 @@ header {
 }
 
 #contactForm {
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
   text-align: center;
   font-family: 'Sree Krushnadevaraya', serif;
 }
