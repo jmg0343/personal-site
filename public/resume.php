@@ -70,7 +70,7 @@
                 <ul class="list-unstyled contact-list">
                     <li class="email"><i class="fa fa-envelope"></i><a href="mailto:jmg0343@gmail.com">jmg0343@gmail.com</a></li>
                     <li class="phone"><i class="fa fa-phone"></i><a href="phone">210-718-4715</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">LINK TO PORTFOLIO</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="/index.html#portfolio">LINK TO PORTFOLIO</a></li>
                     <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/joey-garcia-74161b7b" target="_blank">LinkedIn/JoeyGarcia</a></li>
                     <li class="github"><i class="fa fa-github"></i><a href="https://github.com/jmg0343" target="_blank">github.com/jmg0343</a></li>
                     <!-- <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li> -->

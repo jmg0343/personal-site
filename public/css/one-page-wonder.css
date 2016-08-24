@@ -12,7 +12,7 @@ body {
 }
 
 .projectTitle {
-  background-color: rgba(0,0,0,0.5);
+  /*background-color: rgba(0,0,0,0.5);*/
   text-shadow: 3px 3px 5px black;
 }
 .descriptionTitle {
@@ -189,6 +189,7 @@ body {
 .featurette {
   text-align: center;
   overflow: hidden;
+  background-color: rgba(0,0,0,0.5);
 }
 
 .featurette-image.pull-left {
@@ -206,7 +207,7 @@ body {
 
 .lead {
   color: #ced0d2;
-  background-color: rgba(0,0,0,0.5);
+  /*background-color: rgba(0,0,0,0.5);*/
 }
 
 @media(max-width:1200px) {
