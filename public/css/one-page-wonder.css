@@ -166,6 +166,10 @@ body {
 
 }
 
+#bio {
+  margin-top: 30px;
+}
+
 .headline h1 {
     font-size: 130px;
 }
