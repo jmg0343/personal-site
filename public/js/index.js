@@ -13,6 +13,8 @@ $( document ).ready(function() {
         scaleBannerVideoSize('.video-container video');
     });
 
+    
+
 });
 
 function scaleVideoContainer() {
@@ -59,7 +61,15 @@ function scaleBannerVideoSize(element){
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 
     });
+
+
 };
+
+function showContactForm(){
+    $("#contactForm").show();
+};
+
+$("#contactMe").click(showContactForm);
 
 
 

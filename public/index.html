@@ -47,16 +47,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="navigation-button hvr-float-shadow">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="navigation-button hvr-float-shadow">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="/onePageResume/html/index.html">About</a>
                     </li>
                     <li class="navigation-button hvr-float-shadow">
                         <a href="/resume.php">Resume</a>
                     </li>
                      <li class="navigation-button hvr-float-shadow">
-                        <a href="#contactForm">Contact</a>
+                        <a id="contactMe" href="#contactForm">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,39 +74,6 @@
 
     <!-- Page Content -->
     <div class="container">
-    
-        <hr class="featurette-divider" id="about">
-
-        <!-- First Featurette -->
-        <div class="featurette">
-            <!-- <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"> -->
-            <h2 class="featurette-heading"><span class="projectTitle">Bio</span>
-            </h2>
-            <p id="bio"><span class="lead">I need to think of some stuff to say</span></p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Second Featurette -->
-        <div id="portfolio" class="featurette" id="simon">
-            <a href="/simon/simpleSimon.html"><img class="featurette-image img-circle img-responsive pull-left" src="/img/simonPicture.png"></a>
-            <a class="projectLinks hvr-float-shadow" href="/simon/simpleSimon.html"><h2 class="featurette-heading"><span class="projectTitle">Simple Simon Game</span></a>
-            </h2>
-            <p class="lead">A simple game designed to test the player's memory and focus. This project challenged my ability to create in interactive application that utilized my JavaScript, HTML, and CSS coding ability.</p>
-            <p class="lead">The dark, crate-looking background along with buttons of varying opacity creates a simple, yet aesthetically pleasing atmosphere for the user. Lose the game, and you're in for a flavorful surprise so obnoxious, even the least competitive player will do their best to avoid a loss.</p>
-            <p class="lead">P.S. The picture is clickable. Totally cool, right? It'd be a shame if you didn't give it a shot.</p>
-        </div>
-
-        <hr class="featurette-divider">
-
-        <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <!-- <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500"> -->
-            <h2 class="featurette-heading"><span class="projectTitle">Coming Soon!</span>
-                <span class="text-muted descriptionTitle">More Projects!</span>
-            </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
         <div class="homepage-hero-module">
             <div class="video-container">
                 <div class="filter"></div>
@@ -122,8 +86,8 @@
                 </div>
             </div>
         </div>
+        <form id="contactForm" hidden>
         <hr class="featurette-divider">
-        <form id="contactForm">
             <h2 id="formHeading">I'd love to hear from you!</h2>
             <div class="row" >
                 <div class="col-sm-6">
