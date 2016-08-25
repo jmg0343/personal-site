@@ -209,8 +209,8 @@ textarea {
 	resize: none;
 }
 
-#connect #form input.name{background:#222222 url(images/icon-user.png) no-repeat 10px 8px;}
-#connect #form input.email{background:#222222 url(images/icon-mail.png) no-repeat 10px 9px;}
+#connect #form input.name{background:#222222 url(images/icon-user.png) no-repeat 10px 8px; color: white;}
+#connect #form input.email{background:#222222 url(images/icon-mail.png) no-repeat 10px 9px; color: white;}
 #connect #form textarea.message{background:#222222 url(images/icon-message.png) no-repeat 10px 8px;}
 #connect #form input.submit{ 
 	width:75px;   
