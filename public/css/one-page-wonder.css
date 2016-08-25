@@ -20,6 +20,10 @@ body {
   text-shadow: 2px 2px 5px black;
 }
 
+video::-webkit-media-controls-start-playback-button {
+  display: none;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
