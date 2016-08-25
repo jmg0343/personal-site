@@ -7,7 +7,7 @@
 body {
     font-family: 'Sree Krushnadevaraya', serif;
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: none;
+    background-color: black;
     z-index: -2;
 }
 
@@ -399,6 +399,11 @@ textarea {
   background: rgba(0,0,0,0.2);
   color: #d6d6d6;
   font-size: 20px;
+}
+textarea:focus { 
+    outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #aaaaaa;
 }
 
 #formSubmit {
