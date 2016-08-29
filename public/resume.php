@@ -142,7 +142,7 @@
                         <div class="company">San Antonio, Texas</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+                        <p>Led team in accomplishing various tasks and meeting daily, weekly, and monthly goals. Underwent management training along with training in communication, spacial awareness, and general warehouse logistics. This environment fostered the team-oriented work ethic necessary to meet and exceed deadline expectations.</p>  
                         
                     </div><!--//details-->
                 </div><!--//item-->
@@ -157,7 +157,7 @@
                         <div class="company">San Antonio, Texas</div>
                     </div><!--//meta-->
                     <div class="details">
-                        <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>  
+                        <p>Worked as part of a team to accomplish large-scale projects. As an interior remodeling specialist I collaborated with people from a variety of fields to establish deadlines and build or remodel both corporate and residential structures.</p>  
                     </div><!--//details-->
                 </div><!--//item-->
                 
@@ -166,7 +166,7 @@
             <section class="section projects-section">
                 <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
                 <div class="intro">
-                    <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+
                 </div><!--//intro-->
                 <div class="item">
                     <span class="project-title"><a href="/simon/simpleSimon.html">Simon</a></span> - <span class="project-tagline">An interactive game allowing the user to test their memory and focus.</span>      
