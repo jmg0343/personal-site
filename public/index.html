@@ -53,7 +53,7 @@
                         <a href="/resume.php">Resume</a>
                     </li>
                      <li class="navigation-button hvr-float-shadow">
-                        <a id="contactMe" href="#contactForm">Contact</a>
+                        <a href="#contactForm" id="contactMe" class="button">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -86,37 +86,29 @@
                 </div>
             </div>
         </div>
-        <form id="contactForm" hidden>
+        <!-- CONTACT FORM -->
+        <form id="contactForm" action="https://formspree.io/jmgarcia0343@gmail.com" method="POST" hidden>
         <hr class="featurette-divider">
             <h2 id="formHeading">I'd love to hear from you!</h2>
             <div class="row" >
                 <div class="col-sm-6">
                     <label>
-                        <input type="text" required/>
-                        <div class="label-text">First name</div>
-                    </label>
-                    <label>
-                        <input type="text" required/>
-                        <div class="label-text">Last name</div>
+                        <input type="text" name="firstName" required/>
+                        <div class="label-text">First Name</div>
                     </label>
                 </div>
                 <div class="col-sm-6">
                      <label>
-                        <input type="text" required/>
-                        <div class="label-text">Email</div>
-                    </label>
-                     <label>
-                        <input type="text" required/>
-                        <div class="label-text">Website URL</div>
+                        <input type="text" name="lastName" required/>
+                        <div class="label-text">Last Name</div>
                     </label>
                 </div>
-                <textarea placeholder="Questions, comments, or verbal abuse? This is where it goes."></textarea>
+                <textarea name="message" placeholder="Questions, comments, or verbal abuse? This is where it goes."></textarea>
             </div>
             <button id="formSubmit">Submit</button>
         </form>
-
-        
     </div>
+
 
 
 

@@ -11,6 +11,7 @@ body {
     z-index: -2;
 }
 
+
 .projectTitle {
   /*background-color: rgba(0,0,0,0.5);*/
   text-shadow: 3px 3px 5px black;
@@ -278,8 +279,5 @@ textarea:focus {
   outline: 0;
 }
 
-
-
-
-
+/*************************************** MODAL ****************************************************/
 
