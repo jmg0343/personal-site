@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Weather</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<style type="text/css">
+			body {
+				background-color: #abdcfd;
+				padding-top: 100px; 
+			}
+
+			/*.container {
+				background-color: #abdcfd;
+			}*/
+
+			.col-sm-4 {
+				border: 1px solid black;
+				padding: 0;
+				margin-bottom: 20px;
+				background-color: #f2f2f2;
+				text-align: center;
+				font-size: small;
+			}
+
+			#map_canvas {
+	            width: 800px;
+	            height: 481px;
+	            margin-left: auto;
+	            margin-right: auto;
+        	}
+
+		</style>
+	</head>
+	<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="affix1" data-spy="affix" data-offset-top="100" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="navigation-button hvr-float-shadow">
+                        <a href="/index.html">Home</a>
+                    </li>
+                    <li class="navigation-button hvr-float-shadow">
+                        <a href="/onePageResume/HTML/index.html#work">Portfolio</a>
+                    </li>
+                    <li class="navigation-button hvr-float-shadow">
+                        <a href="/resume.php">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+		<div class="container">
+			<h1>Weather Application</h1>
+			<br>
+			<h3 id="location"></h3>
+			 <div class="row">
+			    <div class="col-sm-4">
+			    	<div class="content_info" id="today_info"></div>
+			    </div>
+			    <div class="col-sm-4">
+			    	<div class="content_info" id="tomorrow_info"></div>
+			    </div>
+			    <div class="col-sm-4">
+			   		<div class="content_info" id="day_three_info"></div>
+			    </div>
+		  	</div>
+			<div id="map_canvas"></div>
+		</div>
+
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkrsO0_mS58z8EzDzcq1J9F1knU6JXijQ"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="weather-map.js"></script>
+	</body>
+</html>
