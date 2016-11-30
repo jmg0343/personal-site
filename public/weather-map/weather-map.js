@@ -26,7 +26,7 @@
 
 						content += "<h1>" + date.toDateString() + "</h1>";
 						content += "<h3>" + Math.round(temp_max) + "º" + "/" + Math.round(temp_min) + "º" + "</h3>";
-						content += "<img src='http://openweathermap.org/img/w/" + icon + ".png'>";
+						content += "<img src='https://openweathermap.org/img/w/" + icon + ".png'>";
 						content += "<h3>" + description + "</h3>";
 						content += "<h3> Humidity: " + humidity + "</h3>";
 						content += "<h3> Wind: " + wind + "</h3>";
@@ -49,7 +49,7 @@
 						
 						tomorrow_content += "<h1>" + tomorrow_date.toDateString() + "</h1>";
 						tomorrow_content += "<h3>" + Math.round(tomorrow_max) + "º" + "/" + Math.round(tomorrow_min) + "º" + "</h3>";	
-						tomorrow_content += "<img src='http://openweathermap.org/img/w/" + tomorrow_icon + ".png'>";
+						tomorrow_content += "<img src='https://openweathermap.org/img/w/" + tomorrow_icon + ".png'>";
 						tomorrow_content += "<h3>" + tomorrow_description + "</h3>";
 						tomorrow_content += "<h3> Humidity: " + tomorrow_humidity + "</h3>";
 						tomorrow_content += "<h3> Wind: " + tomorrow_wind + "</h3>";
@@ -71,7 +71,7 @@
 						
 						day_three_content += "<h1>" + day_three_date.toDateString() + "</h1>";
 						day_three_content += "<h3>" + Math.round(day_three_max) + "º" + "/" + Math.round(day_three_min) + "º" + "</h3>";
-						day_three_content += "<img src='http://openweathermap.org/img/w/" + day_three_icon + ".png'>";
+						day_three_content += "<img src='https://openweathermap.org/img/w/" + day_three_icon + ".png'>";
 						day_three_content += "<h3>" + day_three_description + "</h3>";
 						day_three_content += "<h3> Humidity: " + day_three_humidity + "</h3>";
 						day_three_content += "<h3> Wind: " + day_three_wind + "</h3>";
@@ -90,7 +90,7 @@
 
 				var getWeather = function(event) {
 					$.ajax({											// ajax request for weather map				
-						url: "http://api.openweathermap.org/data/2.5/forecast/daily",
+						url: "https://api.openweathermap.org/data/2.5/forecast/daily",
 						method: "GET",										
 						data: {													// This is the data we will be sending
 							APPID: myAPIKey,										// our constant, which is the API key given
