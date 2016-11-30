@@ -90,7 +90,7 @@
 
 				var getWeather = function(event) {
 					$.ajax({											// ajax request for weather map				
-						url: "https://api.openweathermap.org/data/2.5/forecast/daily",
+						url: "http://api.openweathermap.org/data/2.5/forecast/daily",
 						method: "GET",										
 						data: {													// This is the data we will be sending
 							APPID: myAPIKey,										// our constant, which is the API key given
